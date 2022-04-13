@@ -1,7 +1,10 @@
 PointCloudExplorer
 =====================
 
-**PointCloudExplorer** is an experimental project using point cloud data on Unity.
+**PointCloudExplorer** is an experimental project using point cloud data on Unity by https://github.com/mattatz/PointCloudExplorer
+
+Keijiro's **Pcx** is merged into this project for PLY format support. https://github.com/keijiro/Pcx  
+I edit 185 line of **PlyImporter.cs** in Pcx package to make PLY files readable from mesh.UploadMeshData(false); to mesh.UploadMeshData(true);  
 
 ![Frustum](https://raw.githubusercontent.com/mattatz/PointCloudExplorer/master/Captures/Frustum.gif)
 
