@@ -3,15 +3,6 @@ PointCloudExplorer
 
 **PointCloudExplorer** is an experimental project using point cloud data on Unity by https://github.com/mattatz/PointCloudExplorer
 
-Keijiro's **Pcx** is merged into this project for PLY format support. https://github.com/keijiro/Pcx  
-I edit 185 line of **PlyImporter.cs** in Pcx package to make PLY files readable from mesh.UploadMeshData(false); to mesh.UploadMeshData(true);  
-
-<img src="https://github.com/Tongzhou-Yu/PointCloudExplorer/blob/main/Captures/Custom%20Point%20Cloud%20Rendering.png" width="640">
-
-<img src="https://github.com/Tongzhou-Yu/PointCloudExplorer/blob/main/Captures/Mesh%20From%20PLY.png" width="640">
-
-<img src="https://github.com/Tongzhou-Yu/PointCloudExplorer/blob/main/Captures/Use%20Mesh%20From%20PLY.png" width="640">
-
 <img src="https://raw.githubusercontent.com/mattatz/PointCloudExplorer/master/Captures/Frustum.gif" width="640">
 
 <img src="https://raw.githubusercontent.com/mattatz/PointCloudExplorer/master/Captures/Scanline.gif" width="640">
@@ -25,6 +16,18 @@ I edit 185 line of **PlyImporter.cs** in Pcx package to make PLY files readable 
 Rendering performance can be improved by dividing the point cloud into uniform grids.
 
 ![Grid](https://raw.githubusercontent.com/mattatz/PointCloudExplorer/master/Captures/Grid.gif)
+
+PLYimporter
+=====================
+
+Keijiro's **Pcx** is merged into this project for PLY format support. https://github.com/keijiro/Pcx  
+I edit 185 line of **PlyImporter.cs** in Pcx package to make PLY files readable from mesh.UploadMeshData(false); to mesh.UploadMeshData(true);  
+
+<img src="https://github.com/Tongzhou-Yu/PointCloudExplorer/blob/main/Captures/Custom%20Point%20Cloud%20Rendering.png" width="640">
+
+<img src="https://github.com/Tongzhou-Yu/PointCloudExplorer/blob/main/Captures/Mesh%20From%20PLY.png" width="640">
+
+<img src="https://github.com/Tongzhou-Yu/PointCloudExplorer/blob/main/Captures/Use%20Mesh%20From%20PLY.png" width="640">
 
 ## Compatibility
 
