@@ -5,20 +5,20 @@ PointCloudExplorer
 
 Keijiro's **Pcx** is merged into this project for PLY format support. https://github.com/keijiro/Pcx  
 I edit 185 line of **PlyImporter.cs** in Pcx package to make PLY files readable from mesh.UploadMeshData(false); to mesh.UploadMeshData(true);  
-&emsp;
+
 <img src="https://github.com/Tongzhou-Yu/PointCloudExplorer/blob/main/Captures/Custom%20Point%20Cloud%20Rendering.png" width="640">
 
 <img src="https://github.com/Tongzhou-Yu/PointCloudExplorer/blob/main/Captures/Mesh%20From%20PLY.png" width="640">
 
 <img src="https://github.com/Tongzhou-Yu/PointCloudExplorer/blob/main/Captures/Use%20Mesh%20From%20PLY.png" width="640">
-&emsp;
-![Frustum](https://raw.githubusercontent.com/mattatz/PointCloudExplorer/master/Captures/Frustum.gif)
 
-![Scanline](https://raw.githubusercontent.com/mattatz/PointCloudExplorer/master/Captures/Scanline.gif)
+<img src="https://raw.githubusercontent.com/mattatz/PointCloudExplorer/master/Captures/Frustum.gif" width="640">
 
-![Pulse](https://raw.githubusercontent.com/mattatz/PointCloudExplorer/master/Captures/Pulse.gif)
+<img src="https://raw.githubusercontent.com/mattatz/PointCloudExplorer/master/Captures/Scanline.gif" width="640">
 
-![Transition](https://raw.githubusercontent.com/mattatz/PointCloudExplorer/master/Captures/Transition.gif)
+<img src="https://raw.githubusercontent.com/mattatz/PointCloudExplorer/master/Captures/Pulse.gif" width="640">
+
+<img src="https://raw.githubusercontent.com/mattatz/PointCloudExplorer/master/Captures/Transition.gif" width="640">
 
 ## Rendering with uniform grids
 
@@ -28,11 +28,10 @@ Rendering performance can be improved by dividing the point cloud into uniform g
 
 ## Compatibility
 
-Tested on Unity 2020.2.f1, windows 10, macOS.
+Tested on Unity 2020.3.27f1c1, windows 10.
 
 ## Sources
 
-- 
 - Standard Male Figure(CC BY 3.0) - https://clara.io/view/d49ee603-8e6c-4720-bd20-9e3d7b13978a
 - Tainan Daina City(CC BY 4.0) - https://sketchfab.com/3d-models/01799eb873164aa0aa9791526f7c865d
 - Hintze Hall, NHM London [point cloud](CC BY-NC 4.0) - https://sketchfab.com/3d-models/hintze-hall-nhm-london-point-cloud-be909aa8afa545118be6d36397529e2f
