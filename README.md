@@ -6,7 +6,7 @@ PointCloudExplorer
 Keijiro's **Pcx** is merged into this project for PLY format support. https://github.com/keijiro/Pcx  
 I edit 185 line of **PlyImporter.cs** in Pcx package to make PLY files readable from mesh.UploadMeshData(false); to mesh.UploadMeshData(true);  
 
-![Frustum](https://github.com/Tongzhou-Yu/PointCloudExplorer/blob/main/Captures/Custom%20Point%20Cloud%20Rendering.png)
+![test image size]<img src="https://github.com/Tongzhou-Yu/PointCloudExplorer/blob/main/Captures/Custom%20Point%20Cloud%20Rendering.png" width="400" height="790">
 
 ![Frustum](https://github.com/Tongzhou-Yu/PointCloudExplorer/blob/main/Captures/Mesh%20From%20PLY.png)
 
@@ -32,6 +32,7 @@ Tested on Unity 2020.2.f1, windows 10, macOS.
 
 ## Sources
 
+- 
 - Standard Male Figure(CC BY 3.0) - https://clara.io/view/d49ee603-8e6c-4720-bd20-9e3d7b13978a
 - Tainan Daina City(CC BY 4.0) - https://sketchfab.com/3d-models/01799eb873164aa0aa9791526f7c865d
 - Hintze Hall, NHM London [point cloud](CC BY-NC 4.0) - https://sketchfab.com/3d-models/hintze-hall-nhm-london-point-cloud-be909aa8afa545118be6d36397529e2f
